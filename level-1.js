@@ -37,3 +37,63 @@ for(var i = 15; i <= 25; i++) {
 }
 
 //Question 6
+
+for(var i = 15; i <= 25; i++) {
+    if(i === 20) {
+    console.log(20);
+    } else {
+    console.log("");
+    };
+}
+
+
+//Question 7
+
+var dogs = [
+    {
+        name: "Lucky",
+        age: 5,
+        neutered: false
+    },
+    {
+        name: "Scott",
+        age: 3,
+        neutered: true
+    }
+];
+
+for(var i = 0; i < dogs.length; i++) {
+    console.log(dogs[i].age);
+    console.log(dogs[i].neutered);
+}
+
+//Question 8 
+
+function whatIDontLike(sport) {
+    console.log("I don't like " + sport);
+}
+
+whatIDontLike("hockey");
+
+//Question 9
+
+function subtraction(numberOne,numberTwo) {
+    var result = numberOne - numberTwo;
+    console.log(result);
+}
+
+//Question 10
+
+var arrayOne = [];
+
+function functionOne(argumentOne) {
+    arrayOne.push(argumentOne);
+}
+
+functionOne("a");
+
+
+
+
+
+    
